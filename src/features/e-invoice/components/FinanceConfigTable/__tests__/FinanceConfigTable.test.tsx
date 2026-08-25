@@ -12,14 +12,12 @@ describe('<FinanceConfigTable />', () => {
   it('renders all configured column headers', () => {
     renderTable(<FinanceConfigTable data={[makeFinanceConfig()]} />);
 
-    // Headers come from `eInvoice.table.*` translations; with no bundle they
-    // resolve to the key itself.
-    expect(screen.getByText('table.invoiceChannel')).toBeInTheDocument();
-    expect(screen.getByText('table.stores')).toBeInTheDocument();
-    expect(screen.getByText('table.status')).toBeInTheDocument();
-    expect(screen.getByText('table.channelCreatedAt')).toBeInTheDocument();
-    expect(screen.getByText('table.channelUpdatedAt')).toBeInTheDocument();
-    expect(screen.getByText('table.actions')).toBeInTheDocument();
+    expect(screen.getByText(/common\.table\.invoiceChannel/i)).toBeInTheDocument();
+    expect(screen.getByText('common.table.stores')).toBeInTheDocument();
+    expect(screen.getByText('common.table.status')).toBeInTheDocument();
+    expect(screen.getByText('common.table.channelCreatedAt')).toBeInTheDocument();
+    expect(screen.getByText('common.table.channelUpdatedAt')).toBeInTheDocument();
+    expect(screen.getByText('common.table.actions')).toBeInTheDocument();
   });
 
   it('renders one row per finance config', () => {
