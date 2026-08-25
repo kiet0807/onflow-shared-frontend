@@ -1,5 +1,5 @@
 import { useCallback, useId, useRef, useState } from 'react';
-import { useDropzone } from 'react-dropzone';
+import { useDropzone, Accept } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
 import { Spinner, UncontrolledTooltip } from 'reactstrap';
 import classnames from 'classnames';
@@ -61,7 +61,7 @@ export const ImageUpload = ({
 
   const { getInputProps } = useDropzone({
     onDrop,
-    accept: accept as unknown as string | string[] | undefined,
+    accept: accept as Accept,
     maxSize,
     multiple: false,
     disabled: disabled || uploading,

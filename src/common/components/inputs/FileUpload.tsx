@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { useDropzone } from 'react-dropzone';
+import { useDropzone, Accept } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
 import { Spinner } from 'reactstrap';
 
@@ -77,9 +77,7 @@ export const FileUpload = ({
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
-    // react-dropzone v14+ accepts string | string[] | {mime: ext[]}; older versions
-    // accept Record<string, string[]>. Cast keeps both happy.
-    accept: accept as unknown as string | string[] | undefined,
+    accept: accept as Accept,
     maxSize,
     multiple,
     disabled: disabled || uploading,
