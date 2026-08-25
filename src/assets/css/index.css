@@ -1,0 +1,7 @@
+/**
+ * E-Invoice Frontend - Global Styles
+ * Import order: base -> components
+ */
+
+@import './base.css';
+@import './components.css';

@@ -1,0 +1,217 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "searchBy": "Search by",
+    "filter": "Filter",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "noData": "No data",
+    "actions": "Actions",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "loggedOut": "You have been logged out.",
+    "province": "Province/City",
+    "district": "District",
+    "ward": "Ward",
+    "enterProvince": "Select province/city",
+    "enterDistrict": "Select district",
+    "enterWard": "Select ward",
+    "pleaseSelectCity": "Please select province/city",
+    "pleaseSelectDistrict": "Please select district",
+    "pleaseSelectWard": "Please select ward",
+    "createdDate": "Created Date",
+    "areYouSure": "Are you sure?",
+    "confirmChange": "Confirm change",
+    "confirmClearAwbMsg": "Changing this option will remove the uploaded AWB file. Are you sure you want to continue?",
+    "confirmClearAddressMsg": "Changing this option will clear the current address data. Are you sure you want to continue?",
+    "newAddressToggle": "New administrative address",
+    "yes": "Yes",
+    "no": "Cancel",
+    "chooseDate": "Choose date",
+    "codeCopied": "Copied",
+    "clickToCopy": "Click to copy",
+    "STT": "No.",
+    "viewMore": "View more",
+    "viewLess": "View less",
+    "errorTitle": "Something went wrong",
+    "errorSubTitle": "Sorry, an error has occurred. Please try again later.",
+    "chunkLoadTitle": "The app has been updated",
+    "chunkLoadSubtitle": "Please reload the page to get the latest version.",
+    "reloadPage": "Reload page",
+    "backToHome": "Back to Home",
+    "pages": "Pages",
+    "manage": "Manage",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "fetchLimitError": "Failed to fetch configuration limits",
+    "select": "Select...",
+    "noOptions": "No options",
+    "exportAction": "Export {{reportName}}",
+    "removeImage": "Remove image",
+    "selectWarehouse": "Select warehouse",
+    "comingSoon": "This feature is under development. Please check back later!",
+    "dateFilter": {
+      "created": "Created time",
+      "requested": "Requested time"
+    }
+  },
+  "sidebar": {
+    "report": "Report",
+    "reportList": "Reports",
+    "reports": "Reports",
+    "overviewReport": "Overview",
+    "regularReport": "Regular Reports",
+    "requestReport": "Request Reports",
+    "product": "Product",
+    "inventoryList": "Inventories",
+    "inbound": "Inbound",
+    "purchaseOrderList": "Purchase Orders",
+    "shipment": "Shipment",
+    "b2cShipmentList": "B2C Shipments",
+    "b2bShipmentList": "B2B Shipments",
+    "b2cFailedShipmentList": "B2C Failed Shipments",
+    "b2cReturnShipmentList": "B2C Returns",
+    "b2bReturnShipmentList": "B2B Returns",
+    "returnShipment": "Return Shipment",
+    "support": "Support",
+    "videoManageList": "Video Management",
+    "config": "Configuration",
+    "accountManage": "Account",
+    "staffManage": "Staff",
+    "developerTools": "Developer Tools",
+    "regulate": "Regulation",
+    "serviceStandard": "Service Standards",
+    "eInvoiceList": "E-Invoice",
+    "business": "Business",
+    "noBusiness": "No business",
+    "viewMore": "View more",
+    "changeBusinessSuccess": "Business changed successfully"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Invalid email address",
+    "minLength": "Minimum {{min}} characters",
+    "maxLength": "Maximum {{max}} characters"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "entries": "entries",
+    "page": "Page",
+    "rowsPerPage": "Rows per page"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "header": {
+    "hello": "Hello",
+    "accountManage": "Account Management",
+    "logout": "Sign Out",
+    "logoutSuccess": "Signed out successfully!",
+    "customerSupport": "Customer Support",
+    "chatbotName": "Customer Service Chatbot",
+    "chatbotStartingMessage": "Hello! I am Onflow's CS assistant. How can I help you today?"
+  },
+  "widget": {
+    "chooseWarehouse": "Choose warehouse",
+    "chooseBrand": "Choose brand"
+  },
+  "errors": {
+    "sessionExpired": "Session has expired! You will log in again",
+    "duplicateRequest": "Action is processing, please do not double click.",
+    "network": "Network error. Please check your connection.",
+    "permissionDenied": "You don't have permission to perform this action!"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The link may be broken or you may not have access."
+  },
+  "forbidden": {
+    "title": "You don't have access",
+    "message": "This page is outside the permissions granted to your account. Contact your business admin to request access."
+  },
+  "baseInput": {
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "fileUpload": {
+    "dropHint": "Drag and drop a file here or choose a file",
+    "uploadAria": "Upload file",
+    "removeAria": "Remove {{name}}"
+  },
+  "lightbox": {
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "rotateLeft": "Rotate left",
+    "rotateRight": "Rotate right",
+    "flipHorizontal": "Flip horizontal",
+    "flipVertical": "Flip vertical",
+    "reset": "Reset"
+  },
+  "videoModal": {
+    "close": "Close",
+    "openInNewTab": "Open in new tab",
+    "unsupported": "Your browser does not support the video tag."
+  },
+  "units": {
+    "pcs": "Pcs",
+    "box": "Box",
+    "printCopies": "copies"
+  },
+  "exportHistory": {
+    "title": "Export history",
+    "reportName": "Report name",
+    "reportType": "Report type",
+    "requestedAt": "Created at",
+    "requestedBy": "Requested by",
+    "status": "Status",
+    "actions": "Actions",
+    "downloadFile": "Download",
+    "noFile": "No file",
+    "viewDetail": "View detail",
+    "goToRequestReport": "All reports",
+    "close": "Close",
+    "completed": "Completed",
+    "processing": "Processing",
+    "refresh": "Refresh status"
+  },
+  "eInvoice": {
+    "title": "E-Invoice Channels",
+    "table": {
+      "invoiceChannel": "Invoice Channel",
+      "platform": "Platform",
+      "stores": "Stores",
+      "store": "Store",
+      "status": "Status",
+      "channelCreatedAt": "Channel Created Date",
+      "channelUpdatedAt": "Channel Updated Date",
+      "actions": "Actions",
+      "noData": "No invoice channels configured yet"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this invoice channel?",
+      "create": "Add invoice channel"
+    }
+  }
+}

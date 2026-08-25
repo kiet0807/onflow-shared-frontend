@@ -1,0 +1,217 @@
+{
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "create": "Tạo mới",
+    "search": "Tìm kiếm",
+    "searchBy": "Tìm kiếm theo",
+    "filter": "Lọc",
+    "reset": "Đặt lại",
+    "confirm": "Xác nhận",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước đó",
+    "loading": "Đang tải...",
+    "noData": "Không có dữ liệu",
+    "actions": "Thao tác",
+    "status": "Trạng thái",
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động",
+    "success": "Thành công",
+    "error": "Lỗi",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "loggedOut": "Bạn đã đăng xuất.",
+    "province": "Tỉnh/Thành phố",
+    "district": "Quận/Huyện",
+    "ward": "Phường/Xã",
+    "enterProvince": "Chọn tỉnh/thành phố",
+    "enterDistrict": "Chọn quận/huyện",
+    "enterWard": "Chọn phường/xã",
+    "pleaseSelectCity": "Vui lòng chọn tỉnh/thành phố",
+    "pleaseSelectDistrict": "Vui lòng chọn quận/huyện",
+    "pleaseSelectWard": "Vui lòng chọn phường/xã",
+    "createdDate": "Ngày tạo",
+    "areYouSure": "Bạn có chắc chắn không?",
+    "confirmChange": "Xác nhận thay đổi",
+    "confirmClearAwbMsg": "Thay đổi lựa chọn này sẽ xoá file AWB đã tải lên. Bạn có chắc chắn muốn tiếp tục?",
+    "confirmClearAddressMsg": "Thay đổi lựa chọn sẽ xoá dữ liệu địa chỉ hiện tại. Bạn có chắc chắn muốn tiếp tục?",
+    "newAddressToggle": "Địa chỉ hành chính mới",
+    "yes": "Đồng ý",
+    "no": "Hủy",
+    "chooseDate": "Chọn ngày",
+    "codeCopied": "Đã sao chép",
+    "clickToCopy": "Nhấn để sao chép",
+    "STT": "STT",
+    "viewMore": "Xem thêm",
+    "viewLess": "Thu gọn",
+    "errorTitle": "Đã xảy ra lỗi",
+    "errorSubTitle": "Xin lỗi, đã có sự cố xảy ra. Vui lòng thử lại sau.",
+    "chunkLoadTitle": "Phiên bản ứng dụng đã được cập nhật",
+    "chunkLoadSubtitle": "Vui lòng tải lại trang để lấy phiên bản mới nhất.",
+    "reloadPage": "Tải lại trang",
+    "backToHome": "Quay về trang chủ",
+    "pages": "Trang",
+    "manage": "Quản lý",
+    "collapse": "Thu gọn",
+    "expand": "Mở rộng",
+    "fetchLimitError": "Không thể tải giới hạn cấu hình",
+    "select": "Chọn...",
+    "noOptions": "Không có lựa chọn",
+    "exportAction": "Xuất {{reportName}}",
+    "removeImage": "Xóa hình ảnh",
+    "selectWarehouse": "Chọn kho hàng",
+    "comingSoon": "Tính năng đang trong quá trình phát triển. Vui lòng quay lại sau!",
+    "dateFilter": {
+      "created": "Thời gian tạo",
+      "requested": "Thời gian yêu cầu"
+    }
+  },
+  "sidebar": {
+    "report": "Báo cáo",
+    "reportList": "Báo cáo",
+    "reports": "Báo cáo",
+    "overviewReport": "Tổng quan",
+    "regularReport": "Báo cáo định kỳ",
+    "requestReport": "Báo cáo yêu cầu",
+    "product": "Sản phẩm",
+    "inventoryList": "Sản phẩm lưu kho",
+    "inbound": "Nhập kho",
+    "purchaseOrderList": "Phiếu nhập",
+    "shipment": "Vận đơn",
+    "b2cShipmentList": "Vận đơn B2C",
+    "b2bShipmentList": "Vận đơn B2B",
+    "b2cFailedShipmentList": "Giao thất bại B2C",
+    "b2cReturnShipmentList": "Hoàn trả B2C",
+    "b2bReturnShipmentList": "Hoàn trả B2B",
+    "returnShipment": "Hoàn hàng",
+    "support": "Hỗ trợ",
+    "videoManageList": "Quản lý video",
+    "config": "Cấu hình",
+    "accountManage": "Tài khoản",
+    "staffManage": "Nhân viên",
+    "developerTools": "Công cụ phát triển",
+    "regulate": "Quy định",
+    "serviceStandard": "Tiêu chuẩn dịch vụ",
+    "eInvoiceList": "Hóa đơn điện tử",
+    "business": "Doanh nghiệp",
+    "noBusiness": "Không có doanh nghiệp",
+    "viewMore": "Xem thêm",
+    "changeBusinessSuccess": "Chuyển doanh nghiệp thành công"
+  },
+  "validation": {
+    "required": "Trường này là bắt buộc",
+    "email": "Email không hợp lệ",
+    "minLength": "Tối thiểu {{min}} ký tự",
+    "maxLength": "Tối đa {{max}} ký tự"
+  },
+  "pagination": {
+    "showing": "Hiển thị",
+    "of": "trong",
+    "entries": "mục",
+    "page": "Trang",
+    "rowsPerPage": "Số dòng mỗi trang"
+  },
+  "breadcrumb": {
+    "home": "Trang chủ"
+  },
+  "header": {
+    "hello": "Xin chào",
+    "accountManage": "Quản lý tài khoản",
+    "logout": "Đăng xuất",
+    "logoutSuccess": "Đăng xuất thành công!",
+    "customerSupport": "Hỗ trợ khách hàng",
+    "chatbotName": "Chăm sóc khách hàng Chatbot",
+    "chatbotStartingMessage": "Xin chào! Em là trợ lý CS của Onflow. Anh/chị cần hỗ trợ gì hôm nay?"
+  },
+  "widget": {
+    "chooseWarehouse": "Chọn kho hàng",
+    "chooseBrand": "Chọn thương hiệu"
+  },
+  "errors": {
+    "sessionExpired": "Phiên đăng nhập đã hết hạn! Vui lòng đăng nhập lại",
+    "duplicateRequest": "Thao tác đang xử lý, vui lòng không nhấn nhiều lần.",
+    "network": "Lỗi mạng. Vui lòng kiểm tra kết nối.",
+    "permissionDenied": "Bạn không có quyền thực hiện thao tác này!"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "message": "Đường dẫn không tồn tại hoặc bạn không có quyền truy cập."
+  },
+  "forbidden": {
+    "title": "Bạn không có quyền truy cập",
+    "message": "Trang này nằm ngoài quyền được cấp cho tài khoản của bạn. Liên hệ quản trị viên của doanh nghiệp để được cấp thêm quyền."
+  },
+  "baseInput": {
+    "showPassword": "Hiện mật khẩu",
+    "hidePassword": "Ẩn mật khẩu"
+  },
+  "fileUpload": {
+    "dropHint": "Kéo thả file vào đây hoặc chọn file",
+    "uploadAria": "Tải tệp lên",
+    "removeAria": "Xóa {{name}}"
+  },
+  "lightbox": {
+    "zoomIn": "Phóng to",
+    "zoomOut": "Thu nhỏ",
+    "rotateLeft": "Xoay trái",
+    "rotateRight": "Xoay phải",
+    "flipHorizontal": "Lật ngang",
+    "flipVertical": "Lật dọc",
+    "reset": "Khôi phục"
+  },
+  "videoModal": {
+    "close": "Đóng",
+    "openInNewTab": "Mở trong tab mới",
+    "unsupported": "Trình duyệt của bạn không hỗ trợ thẻ video."
+  },
+  "units": {
+    "pcs": "SP",
+    "box": "Kiện",
+    "printCopies": "bản in"
+  },
+  "exportHistory": {
+    "title": "Lịch sử xuất file",
+    "reportName": "Tên báo cáo",
+    "reportType": "Loại báo cáo",
+    "requestedAt": "Thời gian tạo",
+    "requestedBy": "Người yêu cầu",
+    "status": "Trạng thái",
+    "actions": "Thao tác",
+    "downloadFile": "Tải file",
+    "noFile": "Không có file",
+    "viewDetail": "Xem chi tiết",
+    "goToRequestReport": "Tất cả báo cáo",
+    "close": "Đóng",
+    "completed": "Hoàn thành",
+    "processing": "Đang xử lý",
+    "refresh": "Làm mới"
+  },
+  "eInvoice": {
+    "title": "Kênh hóa đơn điện tử",
+    "table": {
+      "invoiceChannel": "Kênh hóa đơn",
+      "platform": "Nền tảng",
+      "stores": "Cửa hàng",
+      "store": "Cửa hàng",
+      "status": "Trạng thái",
+      "channelCreatedAt": "Ngày tạo của kênh",
+      "channelUpdatedAt": "Ngày cập nhật của kênh",
+      "actions": "Thao tác",
+      "noData": "Chưa có kênh hóa đơn nào được cấu hình"
+    },
+    "status": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "actions": {
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa kênh hóa đơn này?",
+      "create": "Thêm kênh hóa đơn"
+    }
+  }
+}

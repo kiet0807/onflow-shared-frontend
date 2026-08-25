@@ -1,0 +1,96 @@
+/**
+ * Global CSS Variables for Shared Frontend
+ * Based on Onflow design system
+ */
+
+:root {
+  /* Primary Colors */
+  --ei-primary: #04283a;
+  --ei-primary-hover: #053b50;
+  --ei-primary-light: #0a4a6b;
+  --ei-primary-rgb: 4, 40, 58;
+
+  /* Secondary Colors */
+  --ei-secondary: #465791;
+  --ei-secondary-hover: #5566a1;
+  --ei-secondary-light: #5767a3;
+
+  /* Status Colors */
+  --ei-success: #0ab39c;
+  --ei-success-light: rgba(10, 179, 156, 0.1);
+  --ei-warning: #f7b84b;
+  --ei-warning-light: rgba(247, 184, 75, 0.1);
+  --ei-danger: #f06548;
+  --ei-danger-light: rgba(240, 101, 72, 0.1);
+  --ei-info: #299cdb;
+  --ei-info-light: rgba(41, 156, 219, 0.1);
+
+  /* Neutral Colors */
+  --ei-white: #ffffff;
+  --ei-black: #000000;
+  --ei-gray-50: #f8f9fa;
+  --ei-gray-100: #f3f6f9;
+  --ei-gray-200: #eff2f7;
+  --ei-gray-300: #e9ebec;
+  --ei-gray-400: #ced4da;
+  --ei-gray-500: #adb5bd;
+  --ei-gray-600: #878a99;
+  --ei-gray-700: #495057;
+  --ei-gray-800: #343a40;
+  --ei-gray-900: #212529;
+
+  /* Background Colors */
+  --ei-body-bg: #f3f3f9;
+  --ei-card-bg: #ffffff;
+  --ei-sidebar-bg: #ffffff;
+  --ei-header-bg: #ffffff;
+
+  /* Border Colors */
+  --ei-border-color: #e9ebec;
+  --ei-border-light: #f3f6f9;
+
+  /* Text Colors */
+  --ei-text-primary: #212529;
+  --ei-text-secondary: #495057;
+  --ei-text-muted: #878a99;
+  --ei-text-light: #adb5bd;
+
+  /* Shadows */
+  --ei-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --ei-shadow: 0 1px 2px rgba(56, 65, 74, 0.15);
+  --ei-shadow-lg: 0 5px 10px rgba(30, 32, 37, 0.12);
+
+  /* Border Radius */
+  --ei-radius-sm: 0.2rem;
+  --ei-radius: 0.25rem;
+  --ei-radius-lg: 0.3rem;
+  --ei-radius-xl: 1rem;
+  --ei-radius-2xl: 2rem;
+  --ei-radius-pill: 50rem;
+
+  /* Spacing */
+  --ei-spacer: 1rem;
+
+  /* Typography */
+  --ei-font-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ei-font-size-base: 0.875rem;
+  --ei-font-size-sm: 0.8125rem;
+  --ei-font-size-lg: 1rem;
+  --ei-line-height-base: 1.5;
+
+  /* Transitions */
+  --ei-transition: all 0.2s ease-in-out;
+
+  /* Z-Index */
+  --ei-zindex-dropdown: 1000;
+  --ei-zindex-sticky: 1020;
+  --ei-zindex-fixed: 1030;
+  --ei-zindex-modal-backdrop: 1050;
+  --ei-zindex-modal: 1055;
+  --ei-zindex-tooltip: 1070;
+
+  /* Layout */
+  --ei-sidebar-width: 250px;
+  --ei-header-height: 70px;
+  --ei-footer-height: 60px;
+}

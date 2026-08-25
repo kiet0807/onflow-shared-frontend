@@ -1,0 +1,129 @@
+{
+  "name": "@onflow/onflow-shared-frontend",
+  "version": "0.1.0",
+  "description": "Shared frontend primitives (components, hooks, utilities, i18n, API factories) for Onflow OMS & Open Platform apps.",
+  "keywords": [
+    "react",
+    "typescript",
+    "shared",
+    "components",
+    "onflow",
+    "design-system"
+  ],
+  "license": "UNLICENSED",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./common": {
+      "types": "./dist/common.d.ts",
+      "import": "./dist/common.mjs",
+      "require": "./dist/common.cjs"
+    },
+    "./common/*": {
+      "types": "./dist/common/*.d.ts",
+      "import": "./dist/common/*.mjs",
+      "require": "./dist/common/*.cjs"
+    },
+    "./common/locales/*": "./dist/common/locales/*",
+    "./core": {
+      "types": "./dist/core.d.ts",
+      "import": "./dist/core.mjs",
+      "require": "./dist/core.cjs"
+    },
+    "./core/*": {
+      "types": "./dist/core/*.d.ts",
+      "import": "./dist/core/*.mjs",
+      "require": "./dist/core/*.cjs"
+    },
+    "./features/e-invoice": {
+      "types": "./dist/features/e-invoice.d.ts",
+      "import": "./dist/features/e-invoice.mjs",
+      "require": "./dist/features/e-invoice.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build --config vite.config.mjs",
+    "dev": "vite build --config vite.config.mjs --watch --mode development",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest --run",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prepublishOnly": "yarn type-check && yarn test:run && yarn build"
+  },
+  "peerDependencies": {
+    "@hookform/resolvers": "^3.3.1",
+    "@tanstack/react-query": "^5.14.1",
+    "axios": "^1.0.0",
+    "dayjs": "^1.11.9",
+    "flatpickr": "^4.6.13",
+    "i18next": "^21.6.11",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-flatpickr": "^3.10.13",
+    "react-hook-form": "^7.46.2",
+    "react-i18next": "^11.15.3",
+    "react-router-dom": "^6.22.3",
+    "react-select": "^5.8.0",
+    "reactstrap": "^9.2.2",
+    "yup": "^0.32.11"
+  },
+  "peerDependenciesMeta": {
+    "@hookform/resolvers": {
+      "optional": true
+    },
+    "@tanstack/react-query": {
+      "optional": true
+    },
+    "react-flatpickr": {
+      "optional": true
+    },
+    "react-router-dom": {
+      "optional": true
+    },
+    "react-select": {
+      "optional": true
+    },
+    "yup": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.11",
+    "vite-plugin-dts": "^5.0.3",
+    "vitest": "^2.1.4"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
