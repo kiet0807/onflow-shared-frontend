@@ -36,7 +36,6 @@ const IMPLICIT_EXTERNALS = [
   'flatpickr',
   'remixicon',
   'react-flatpickr',
-  'tailwindcss',
 ];
 
 const entries = {

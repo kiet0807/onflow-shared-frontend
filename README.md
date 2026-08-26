@@ -25,7 +25,7 @@ This package solves that by consolidating everything that **repeats across apps*
 
 - **Peer dependencies** must be installed at the host app — not all apps use every feature, so optional peer deps keep bundle size in check.
 - **Breaking changes** require a major version bump and downstream app updates. Careful semver discipline and a changelog are essential.
-- **Tailwind + remixicon** must be available in the host app — this package provides Tailwind utility classes, not a full CSS reset or icon font.
+- **reactstrap** + **`remixicon` CSS** must be available in the host app.
 
 ---
 
@@ -50,7 +50,7 @@ This package collects the primitives that repeat across Onflow frontend apps int
 
 - **React 18** + **TypeScript** — strict, tree-shakeable
 - **Vite** + `vite-plugin-dts` — emits `.mjs`, `.cjs`, and `.d.ts`
-- **reactstrap** + **Tailwind CSS** — host app must provide both
+- **reactstrap** — host app must provide it
 - **react-hook-form** + **yup** — form and validation
 - **@tanstack/react-query** + **axios** — data fetching
 - **i18next** + **react-i18next** — internationalization with bundled locale JSONs
@@ -80,8 +80,7 @@ Packages marked **optional** in `peerDependenciesMeta` can be omitted if your ap
 
 ### Required host-app setup
 
-- **Tailwind CSS** must be configured — we ship utility classes only.
-- **`remixicon` CSS** (or an icon font of your choice) must be loaded.
+- **reactstrap** + **`remixicon` CSS** must be available in the host app.
 
 ---
 
